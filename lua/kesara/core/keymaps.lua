@@ -30,3 +30,7 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  go to next tab
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
+
+--current line up & down
+vim.keymap.set("n", "<A-k>", ":m .-2<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<A-j>", ":m .+1<CR>", { noremap = true, silent = true })
