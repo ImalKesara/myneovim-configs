@@ -7,8 +7,9 @@ opt.relativenumber = true -- show relative line numbers
 opt.number = true
 
 -- tabs & indentation
-opt.tabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 7
+opt.shiftwidth = 7
+opt.linespace = 7
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
@@ -40,5 +41,3 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
-
-
